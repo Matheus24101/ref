@@ -1,0 +1,14 @@
+module.exports.awaitedCommand = {
+  name: "userinfo",
+  code:
+`
+$editMessage[$message[1];{description:\n$replaceText[$replaceText[$checkContains[$getUserVar[c];$ownerID];true;👑];false;] $replaceText[$replaceText[$replaceText[$replaceText[$status[$getUserVar[c]];dnd;<:DE_DND:824094867084410900>
+];online;<:Online:824093982971002933>
+];offline;<:Invisible:824095226552516648>
+];idle;<:DE_Idle:824095681249280040>] $replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$getUserBadges[$getUserVar[c]];Early Verified Developer;$customEmoji[Early_Verified_Developer]];House Balance;$customEmoji[HOUSE_BALANCE]];House Brilliance;$customEmoji[HOUSE_BRILLIANCE]];House Bravery;$customEmoji[HOUSE_BRAVERY]];Verified Developer;];Discord Partner;$customEmoji[DISCORD_PARTNER]];Early Supporter;$customEmoji[Early_Supporter]];Verified Bot;$customEmoji[Verified_Bot]];Nitro Classic;$customEmoji[Nitro_Classic]]; ,;];Partnered Server Owner,;];Discord Employee;$customEmoji[DISCORD_EMPLOYEE]];Hypesquad Events;$customEmoji[hypesquad_events]];Bughunter Level 2;$customEmoji[BUGHUNTER_LEVEL_2]];Bughunter Level 1;$customEmoji[BUGHUNTER_LEVEL_1]];,;] $replaceText[$replaceText[$replaceText[$replaceText[$platform[$getUserVar[c]];none;];web;🌐];mobile;📱];desktop;🖥️] $replaceText[$replaceText[$isBot[$getUserVar[c]];true;🤖];false;] **$username[$getUserVar[c]]**
+
+🔰 **Cargos:** $replaceText[$replaceText[$replaceText[$%$%$userRoles[$getUserVar[c];mentions]$%$%;,; ];$%$%$%$%;O usuário não tem nenhum cargo.];$%$%;]
+
+🔰 **Permissões:** $replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$replaceText[$userPerms[$getUserVar[c]];Create Instant Invite;Criar um Convite Instantanio];Kick Members;Kikar Membros];Ban Members;Banir Membros];Administrator;Admininstrador];Manage Channels;Gerenciar Canais];Manage Guild;Modificar o servidor];Add Reactions;Adicionar Reações];View Audit Log;Ver o Registro de auditoria];View Channel;Ver Canais];Send Messages;Mandar Mensagens];Manage Messages;Gerenciar Mensagens];Embed Links;Inserir Links];Attach Files;Anexas Arquivos];Read Message History;Ver Historico de Mensagens];Mention Everyone;Mencionar Everyone];View Guild Insights,;];Connect;Conectar a Canais de voz];Speak;Falar em Canais de voz];Mute Members;Mutar Membros];Deafen Members;Ensurdecer Membros];Move Members;Mover Membros];Manage Nicknames;Gerenciar Nicknames];Manage Roles;Gerenciar Cargos];Manage Webhooks;Gerenciar Webhooks];Manage Emojis;Gerenciar Emojis]} {color:8000FF}]
+`
+}
